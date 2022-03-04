@@ -1,0 +1,1 @@
+FROM gcr.io/knative-releases/knative.dev/eventing-ceph/cmd/receive_adapter@sha256:686000cddbb605cca2a685e8181b3d79e73064fb06590afd743a901562fb7c45
