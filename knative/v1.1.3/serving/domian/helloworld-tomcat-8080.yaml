@@ -1,0 +1,20 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: helloworld-tomcat-8080
+  namespace: default
+spec:
+  template:
+    metadata:
+      labels:
+        app: helloworld-tomcat
+      annotations:
+        autoscaling.knative.dev/target: "10"   #并发
+        autoscaling.knative.dev/minScale: "1"
+        autoscaling.knative.dev/maxScale: "10"
+    spec:
+      containers:
+      - image: yf.registry.965432.com/library/tomcat:latest
+        env:
+        - name: TARGET
+          value: World
