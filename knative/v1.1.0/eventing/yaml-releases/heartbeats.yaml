@@ -21,7 +21,7 @@ spec:
   template:
     spec:
       containers:
-        - image: gcr.io/knative-releases/knative.dev/eventing/cmd/heartbeats@sha256:24470771e905a2bd844435b205371d30b9987d35a2f1b3c2aeae37971dcfe3c4
+        - image: yf.registry.965432.com/knative-releases/knative.dev/eventing/cmd/heartbeats:v1.1.0
           env:
             - name: POD_NAME
               value: "heartbeats"

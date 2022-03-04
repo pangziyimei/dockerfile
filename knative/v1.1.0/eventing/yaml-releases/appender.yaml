@@ -26,7 +26,7 @@ spec:
         - env:
             - name: MESSAGE
               value: "...your message goes here..."
-          image: gcr.io/knative-releases/knative.dev/eventing/cmd/appender@sha256:988bca69e9f182bf99d8d4d5ab92297cf0f5c16b707bb27b6299d7e427fb1f24
+          image: yf.registry.965432.com/knative-releases/knative.dev/eventing/cmd/appender:v1.1.0
           # This is needed to run under the "restricted" Pod Security Standard
           securityContext:
             allowPrivilegeEscalation: false
