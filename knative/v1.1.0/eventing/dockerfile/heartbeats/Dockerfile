@@ -1,0 +1,1 @@
+FROM gcr.io/knative-releases/knative.dev/eventing/cmd/sugar_controller@sha256:bab0addca1f70dcc093a498ce551a177215ff053043eb0cf9334a095d512837d

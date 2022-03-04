@@ -1,0 +1,1 @@
+FROM gcr.io/knative-releases/knative.dev/eventing/cmd/websocketsource@sha256:d84510d5fbf1d8cb8cf6552ba75a5c07c7f8262e517b4e5f6c7822340dffdb78

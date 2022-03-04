@@ -1,0 +1,1 @@
+FROM gcr.io/knative-releases/knative.dev/eventing/cmd/event_display@sha256:f8212d469b46d779ccf9f2b32c17f95b1429be887dd715b277e821a011c43659

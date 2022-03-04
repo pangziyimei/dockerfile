@@ -1,0 +1,1 @@
+FROM  gcr.io/knative-releases/knative.dev/eventing/test/test_images/recordevents@sha256:8edf1e871add885ab2198bf7bf77ff1d180fd2f3bd444dddd18064b3b7e04ad6

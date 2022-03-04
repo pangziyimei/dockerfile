@@ -1,0 +1,1 @@
+FROM gcr.io/knative-releases/knative.dev/eventing/cmd/appender@sha256:988bca69e9f182bf99d8d4d5ab92297cf0f5c16b707bb27b6299d7e427fb1f24
